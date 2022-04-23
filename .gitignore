@@ -1,10 +1,10 @@
-# nodejs
+//nodejs
 node_modules
 client/node_modules
 
-# build
+//build
 dist
 
-# enviroment variables
+//enviroment variables
 .env
 
