@@ -1,0 +1,40 @@
+{
+  "name": "serdsc",
+  "version": "1.0.0",
+  "description": "a db for full stack badbank app form MERN stack",
+  "main": "index.js",
+  "engin": {
+    "node": "16.14"
+  },
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "david_salazar",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "google-auth-library": "^7.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "react": "^18.0.0",
+    "react-google-login": "^5.2.2",
+    "unique-random": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@types/mongodb": "^4.0.7",
+    "nodemon": "^2.0.15"
+  }
+}
